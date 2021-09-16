@@ -1,0 +1,41 @@
+/* Show it is fixed to the top */
+
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+
+@media(min-width:768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+
+@media(max-width:992px) {
+    .boxes {
+        margin-bottom: 20px;
+    }
+}
+
+.human {
+    padding-top: 20px;
+    margin: 0px auto;
+    border-radius: 150px;
+}
+
+@media(max-width:992px) {
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+.wrds {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
